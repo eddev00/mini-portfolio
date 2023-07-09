@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 body {
+  position: relative;
   background: #020202;
 }
 .gridy {
