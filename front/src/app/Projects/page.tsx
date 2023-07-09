@@ -4,7 +4,7 @@ import Image from "next/image";
 import gif1 from "../../../public/gif4.gif";
 import ProjectItem from "@/components/ProjectItem";
 import project1 from "../../../public/project1.png";
-import project2 from "../../../public/project 2.png";
+import project2 from "../../../public/project2.png";
 import portfolio from "../../../public/PORTFOLIO.png";
 import chatbot from "../../../public/chatbot.png";
 import langchain from "../../../public/langchain.png";
