@@ -5,8 +5,12 @@
 @tailwind utilities;
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   position: relative;
   background: #020202;
+  overflow: hidden;
 }
 .gridy {
   background-image: linear-gradient(

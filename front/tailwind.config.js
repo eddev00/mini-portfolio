@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         fira: ["Fira Code", "monospace"],
       },
+      screens: {
+        breakpoint: { min: "768px" },
+      },
       colors: {
         secondary: "#6AFF79",
       },

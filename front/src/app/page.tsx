@@ -5,10 +5,13 @@ import Bio from "@/components/Bio";
 import Footer from "@/components/Footer";
 import Hobbies from "@/components/Hobbies";
 import gif1 from "../../public/gif3.gif";
+import gif2 from "../../public/gif1.gif";
 
 export default function Home() {
   return (
     <main className=" text-black font-medium px-6 max-w-xl mx-auto flex flex-col gap-8 py-8">
+      <Image src={gif2} width={500} height={500} alt="gif2" />
+
       <div className=" text-center  p-3 bg-[#6AFF79]">
         Hey! Welcome To My Portfolio
       </div>
