@@ -41,9 +41,9 @@ const Navbar = () => {
                 Projects
               </div>{" "}
             </Link>
-            <Link href="/">
+            <Link href="/https://www.linkedin.com/in/mohamed-baarar/">
               <div className="text-black flex items-center hover:text-white  hover:bg-black px-4 py-2">
-                Contact
+                Connect with me
               </div>{" "}
             </Link>
           </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
             target="_blank"
           >
             <span className=" hover:bg-secondary hover:text-black py-2 px-4">
-              Conenct with me
+              Connect with me
             </span>
           </Link>
         </div>
