@@ -35,12 +35,6 @@ const Contact = () => {
             <span>Linkedin</span>
           </div>
         </Link>
-        <Link href="https://www.instagram.com/mohamedbaarar/" target="_blank">
-          <div className=" bg-secondary flex flex-col justify-center items-center px-4 py-2 min-w-[115px] cursor-pointer gap-1">
-            <Image src={instagram} width={"30"} alt="email" />
-            <span>Instagram</span>
-          </div>
-        </Link>
       </div>
     </div>
   );
