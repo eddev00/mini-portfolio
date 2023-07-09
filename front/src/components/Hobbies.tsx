@@ -6,8 +6,7 @@ const Hobbies = () => {
       <div className="text-secondary text-xl font-semibold "># I like </div>
       <span className="text-white">
         {" "}
-        &nbsp;&nbsp;Building things, Movies, Music, Machine Learning, Football,
-        Gaming{" "}
+        &nbsp;&nbsp;Movies, Music, Machine Learning, Football, Gaming{" "}
       </span>
     </div>
   );

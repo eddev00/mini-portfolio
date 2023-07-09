@@ -11,6 +11,7 @@ import gif2 from "../../public/gif1.gif";
 import Contact from "@/components/Contact";
 
 import { motion } from "framer-motion";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
         </div>
       </div>
       <About />
+      <Skills />
       <Bio />
       <Hobbies />
     </motion.main>
