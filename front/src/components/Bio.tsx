@@ -19,7 +19,14 @@ const Bio = () => {
       </div>
       <div className="bio-item text-white flex gap-6">
         <span className="font-bold">2023</span>
-        <span className="">Bachelor degree in data science</span>
+        <span className="">
+          Bachelor Degree in data science from the Faculty of Applied Sciences
+          Ibn Zohr in ait melloul{" "}
+        </span>
+      </div>
+      <div className="bio-item text-white flex gap-6">
+        <span className="font-bold">2023 to present</span>
+        <span className="">Freelancer developer</span>
       </div>
     </div>
   );
