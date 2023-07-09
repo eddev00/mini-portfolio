@@ -2,10 +2,13 @@ import Image from "next/image";
 import profile from "../../public/profile.png";
 import About from "@/components/About";
 import Bio from "@/components/Bio";
+import Footer from "@/components/Footer";
+import Hobbies from "@/components/Hobbies";
+import gif1 from "../../public/gif3.gif";
 
 export default function Home() {
   return (
-    <main className=" text-black font-medium px-6 max-w-xl mx-auto flex flex-col gap-8">
+    <main className=" text-black font-medium px-6 max-w-xl mx-auto flex flex-col gap-8 py-8">
       <div className=" text-center  p-3 bg-[#6AFF79]">
         Hey! Welcome To My Portfolio
       </div>
@@ -29,6 +32,9 @@ export default function Home() {
       </div>
       <About />
       <Bio />
+      <Hobbies />
+      <Image src={gif1} width={500} height={500} alt="gif1" />
+      <Footer />
     </main>
   );
 }

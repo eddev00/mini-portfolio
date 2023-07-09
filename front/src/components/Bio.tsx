@@ -4,8 +4,8 @@ import arrow from "../../public/arrow.svg";
 
 const Bio = () => {
   return (
-    <div className="flex flex-col gap-2 text-[15px]">
-      <div className="text-secondary text-xl font-semibold ">#Bio</div>
+    <div className="flex flex-col  gap-2 text-[15px]">
+      <div className="text-secondary text-xl font-semibold mb-2"># Bio</div>
       <div className="bio-item text-white flex gap-6">
         <span className="font-bold">2000</span>
         <span className="">Born in Morocco</span>
