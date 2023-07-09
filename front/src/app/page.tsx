@@ -35,7 +35,6 @@ export default function Home() {
       <About />
       <Bio />
       <Hobbies />
-      <Contact />
     </main>
   );
 }
