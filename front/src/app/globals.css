@@ -10,10 +10,10 @@ body {
 .gridy {
   background-image: linear-gradient(
       to right,
-      rgba(0, 83, 8, 0.12) 1px,
+      rgba(0, 83, 8, 0.3) 1px,
       transparent 1px
     ),
-    linear-gradient(to bottom, rgba(0, 83, 8, 0.12) 1px, transparent 1px);
+    linear-gradient(to bottom, rgba(0, 83, 8, 0.3) 1px, transparent 1px);
   background-size: 23px 23px; /* Adjust the size of each grid cell */
   background-color: #020202; /* Set the background color */
   z-index: -2;

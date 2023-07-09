@@ -1,6 +1,7 @@
 import Image from "next/image";
 import profile from "../../public/profile.png";
 import About from "@/components/About";
+import Bio from "@/components/Bio";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         </div>
       </div>
       <About />
+      <Bio />
     </main>
   );
 }
