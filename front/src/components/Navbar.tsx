@@ -41,7 +41,10 @@ const Navbar = () => {
                 Projects
               </div>{" "}
             </Link>
-            <Link href="/https://www.linkedin.com/in/mohamed-baarar/">
+            <Link
+              href="https://www.linkedin.com/in/mohamed-baarar/"
+              target="_blank"
+            >
               <div className="text-black flex items-center hover:text-white  hover:bg-black px-4 py-2">
                 Connect with me
               </div>{" "}
