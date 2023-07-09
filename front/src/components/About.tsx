@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="flex flex-col gap-6">
       <div className="text-secondary text-xl font-semibold "># About me</div>
-      <p className="text-white text-[15px]">
+      <p className="text-white text-[15px]  leading-6 ">
         &nbsp;&nbsp; My name is Mohamed Baarar. I am someone who is passionate
         about creating and building things. I find great joy in exploring the
         vast and dynamic world of technology. From designing, developing
@@ -17,7 +17,7 @@ const About = () => {
         expand my skills and knowledge.
       </p>
       <Link href="/Projects">
-        <div className="  flex gap-4 justify-center items-center text-black text-[16px] self-center bg-secondary py-2 px-6">
+        <div className="  flex gap-4 justify-center items-center text-black text-[16px] self-center bg-secondary py-2 px-6 w-60 mx-auto">
           <span>My portfolio</span>
           <Image src={arrow} width={6} height={6} alt="arrow" />
         </div>
