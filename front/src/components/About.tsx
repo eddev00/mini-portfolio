@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="flex flex-col gap-6">
       <div className="text-secondary text-xl font-semibold "># About me</div>
-      <p className="text-white text-[15px]  leading-6 ">
+      <p className="text-white text-[16px]  leading-6 ">
         &nbsp;&nbsp; My name is Mohamed Baarar. I am someone who is passionate
         about creating and building things. I find great joy in exploring the
         vast and dynamic world of technology. From designing, developing
