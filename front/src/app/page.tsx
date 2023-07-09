@@ -11,8 +11,6 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <main className=" text-black font-medium px-6 max-w-xl mx-auto flex flex-col gap-8 py-8">
-      <Image className="self-center" src={gif2} alt="gif2" />
-
       <div className=" text-center  p-3 bg-[#6AFF79]">
         Hey! Welcome To My Portfolio
       </div>
@@ -38,8 +36,6 @@ export default function Home() {
       <Bio />
       <Hobbies />
       <Contact />
-      <Image src={gif1} className="self-center" alt="gif1" />
-      <Footer />
     </main>
   );
 }
