@@ -25,7 +25,7 @@ const page = () => {
           <div className="text-center  p-3 bg-[#6AFF79] font-bold text-lg">
             Personal Projects
           </div>
-          <div className="container flex flex-wrap gap-6 mx-auto justify-between">
+          <div className="container flex flex-wrap gap-6 mx-auto justify-between mb-6">
             <ProjectItem
               image={project1}
               title="Cosmos Memory"

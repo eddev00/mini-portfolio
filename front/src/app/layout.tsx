@@ -8,8 +8,8 @@ import Image from "next/image";
 import gif1 from "../../public/gif1.gif";
 
 export const metadata: Metadata = {
-  title: "Baarar",
-  description: "Mohamed Baarar Portfolio",
+  title: "Mohamed Baarar Portfolio",
+  description: "Let's build something great together!",
 };
 
 export default function RootLayout({

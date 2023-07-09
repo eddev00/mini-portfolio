@@ -25,7 +25,7 @@ const Bio = () => {
         </span>
       </div>
       <div className="bio-item text-white flex gap-6">
-        <span className="font-bold">2023 to present</span>
+        <span className="font-bold">2023</span>
         <span className="">Freelancer developer</span>
       </div>
     </div>
