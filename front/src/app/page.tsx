@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import profile from "../../public/profile.png";
 import About from "@/components/About";
@@ -8,9 +10,17 @@ import gif1 from "../../public/gif3.gif";
 import gif2 from "../../public/gif1.gif";
 import Contact from "@/components/Contact";
 
+import { motion } from "framer-motion";
+
 export default function Home() {
   return (
-    <main className=" text-black font-medium px-6 max-w-xl mx-auto flex flex-col gap-8 py-8">
+    <motion.main
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 10 }}
+      transition={{ type: "spring", duration: 1 }}
+      className=" text-black font-medium px-6 max-w-xl mx-auto flex flex-col gap-14 py-8"
+    >
       <div className=" text-center  p-3 bg-[#6AFF79]">
         Hey! Welcome To My Portfolio
       </div>
@@ -35,6 +45,6 @@ export default function Home() {
       <About />
       <Bio />
       <Hobbies />
-    </main>
+    </motion.main>
   );
 }

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-import logo from "../../public/logo.png";
+import logo from "../../public/logo.svg";
 import menu from "../../public/menu.svg";
 
 import Image from "next/image";
@@ -17,7 +17,9 @@ const Navbar = () => {
   return (
     <nav className="">
       <div className=" mx-auto max-w-3xl flex  text-white items-center py-2 px-4 justify-between">
-        <Image src={logo} alt="logo" />
+        <Link href="/">
+          <Image src={logo} alt="logo" />{" "}
+        </Link>
         <div className="navbar_large breakpoint:hidden relative cursor-pointer">
           <div className="" onClick={toggle}>
             <Image width={24} src={menu} alt="burgermenu" />
@@ -47,15 +49,24 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar_large hidden breakpoint:flex text-white font-medium gap-6">
-          <span className=" hover:bg-secondary hover:text-black py-2 px-4">
-            Home
-          </span>
-          <span className=" hover:bg-secondary hover:text-black py-2 px-4">
-            Projects
-          </span>
-          <span className=" hover:bg-secondary hover:text-black py-2 px-4">
-            Contact
-          </span>
+          <Link href="/">
+            <span className=" hover:bg-secondary hover:text-black py-2 px-4">
+              Home
+            </span>
+          </Link>
+          <Link href="/Projects">
+            <span className=" hover:bg-secondary hover:text-black py-2 px-4">
+              Projects
+            </span>
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/mohamed-baarar/ "
+            target="_blank"
+          >
+            <span className=" hover:bg-secondary hover:text-black py-2 px-4">
+              Conenct with me
+            </span>
+          </Link>
         </div>
       </div>
     </nav>
