@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
   position: relative;
   background: #020202;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .gridy {
   background-image: linear-gradient(
