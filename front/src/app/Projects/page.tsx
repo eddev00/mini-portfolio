@@ -63,13 +63,13 @@ const page = () => {
                 link="https://github.com/eddev00/mini-portfolio"
                 image={project2}
                 title="University schooling dashboard"
-                paragraph="web app that manage the schooling process of a university + a chatbot that answer students questions "
+                paragraph="web app that manage the schooling process of a university + a chatbot that answer students questions (confidential)"
               />
               <ProjectItem
                 link="https://github.com/eddev00/mini-portfolio"
                 image={chatbot}
                 title="A chatbot for the university"
-                paragraph="A chatbot that answer students questions about the university"
+                paragraph="A chatbot that answer students questions about the university (confidential)"
               />
             </div>
           </div>
