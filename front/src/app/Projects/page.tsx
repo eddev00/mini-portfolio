@@ -27,22 +27,26 @@ const page = () => {
           </div>
           <div className="container flex flex-wrap gap-6 mx-auto justify-between mb-6">
             <ProjectItem
+              link="https://github.com/eddev00/cosmos-memory-webapp"
               image={project1}
               title="Cosmos Memory"
               paragraph="A react app that display data about the galaxy from NASA API"
             />
 
             <ProjectItem
+              link="https://github.com/eddev00/langchain_fsaa_v1"
               image={langchain}
               title="Conversational chatbot"
               paragraph=" Chatbot model built on top of LLM model to answer from private data"
             />
             <ProjectItem
+              link="https://github.com/eddev00/-Expense-Tracker-Application-MERN"
               image={expensetracker}
               title="Expense Tracker"
               paragraph="A react app that track your expenses"
             />
             <ProjectItem
+              link="https://github.com/eddev00/mini-portfolio"
               image={portfolio}
               title="Personal Portfolio"
               paragraph="My personal portfolio website built with Next.js and Tailwindcss"
@@ -54,13 +58,15 @@ const page = () => {
             <div className="text-center  p-3 bg-[#6AFF79] font-bold text-lg">
               University Projects
             </div>
-            <div className="container_items flex flex-wrap gap-6 breakpoint:mx-auto">
+            <div className="container flex flex-wrap gap-6 mx-auto justify-between mb-6">
               <ProjectItem
+                link="https://github.com/eddev00/mini-portfolio"
                 image={project2}
                 title="University schooling dashboard"
                 paragraph="web app that manage the schooling process of a university + a chatbot that answer students questions "
               />
               <ProjectItem
+                link="https://github.com/eddev00/mini-portfolio"
                 image={chatbot}
                 title="A chatbot for the university"
                 paragraph="A chatbot that answer students questions about the university"
